@@ -1,7 +1,13 @@
+.container{
+    max-width: 1200px;
+    height: 800px;
+   
+}
+
 .testimony{
-    background: #fff;
-   margin-top: 200px;
-   height: 800px;
+    background: rgb(105, 185, 172);
+ 
+  
    
 }
 
@@ -14,13 +20,19 @@
 
 .Encabezado{
    
-    color: rgb(255, 0, 0);
+    color: rgb(240, 187, 12);
     align-items: center;
-    margin-left: 420px;
+    text-align: center;
     padding-bottom: 20px;
     font-family: 'Amatic SC', cursive;
     font-family: 'Itim', cursive;  
-    font-size: 50px;
+    font-size: 40px;
+    
+}
+
+
+.Encabezado-Nuestra{
+    color: rgb(0, 255, 255);
     
 }
 
@@ -87,11 +99,32 @@
 }
 
 .rana{
-    
+    width: 700px;
+    height: 450px;
     position: absolute;
-    top: 2300px;
-    right: -100px;
+    top: 2520px;
+    right: -180px;
 }
+
+.wave3{
+    height: 150px;
+   
+   
+   
+    
+}
+
+.wave4{
+     height: 100%;
+     width: 100%;
+     
+}
+
+.wave5{
+    stroke: none;
+     fill:  #eb3d09;
+}
+
 
 /* #99c521ee */
 /* #9cc727ec */

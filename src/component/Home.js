@@ -3,6 +3,8 @@ import Header from './Header';
 import Main from './main'
 import Personal from './personal'
 import Carousel from './Carousel'
+import Portafolio from './Portafolio'
+import Footer from './footer'
 
 
 function Home(){
@@ -11,7 +13,10 @@ function Home(){
      <Header/>
      <Main/>
      <Carousel/>
+     <Portafolio/>
      <Personal/>
+     <Footer/>
+    
     
      </div>
   )

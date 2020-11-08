@@ -1,48 +1,68 @@
 .total{
-    height: 820px;
-    margin-top: 100px;
+    background: #274cc7;
+    width: 100%;
+    height: 1100px;
+   
+    
 }
 
+.tituloCarousel{
+    
+    color: rgb(0, 255, 255);
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+    margin-top: ;
+    
+}
 
+.tituloCarousel h3{
+    font-size: 40px;
+}
+
+.VEN{
+    color: rgb(240, 187, 12);
+}
 
 .carouselHouse{
     width: 100%;
-    height: 800px;
-    margin-top: 80px;
-    border-radius: 30px;
+    height: 850px;
+    border-radius: 5px;
+    object-fit: cover;
+    
+    
+    
+   
     
     
 }
 
 .carouselHouse1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     margin: auto;
-    background: #9cc727ec;
+    background: #274cc7ec;
     width: 75%;
-    height: 800px;
+    height: 890px;
+    border: solid rgb(206, 37, 212) 20px;
+    border-radius: 30px;
+    margin-top: 90px;
+    box-shadow: 0 0 6px rgba(0, 0, 0 , .8);
+    
     
 }
 
-
-.wave{
-    height: 200px;
-   
-   
-    
+.oveja{
+    position: absolute;
+    top: 1293px;
+    left: -130px;
+    width: 800px;
+    height: 500px;
+    z-index: 1;
 }
 
-.wave1{
-     height: 150%;
-     width: 100%;
-     
-}
 
-.wave2{
-    stroke: none;
-     fill: #fff;
-}
+
 
 
 

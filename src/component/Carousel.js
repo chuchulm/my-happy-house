@@ -3,6 +3,7 @@ import '../styles/carousel.css'
 import img1 from '../img/myHouse1.png'
 import img2 from '../img/myHouse2.jpg'
 import img3 from '../img/myHouse3.jpg'
+import oveja from '../img/oveja.png'
 
 
 
@@ -10,7 +11,16 @@ function Carousel(){
     return(
      
      <>
+
+      
   <div className='total'>
+
+  <img src={oveja}  alt='imagen' className='oveja' width="460px" height="250px"/>
+
+      <div className="tituloCarousel">
+       <h3 >Ven a disfrutar<span className='VEN'> esta increible</span> Aventura</h3>
+      </div>
+
         <div id="carouselExampleIndicators" className="carousel slide  carouselHouse1" data-ride="carousel">
            <ol className="carousel-indicators">
              <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -40,10 +50,7 @@ function Carousel(){
            </a>
         </div>
 
-        <div className="wave" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" className="wave1">
-           <path d="M-15.01,43.71 C280.70,236.15 523.93,-117.14 549.32,207.53 L500.22,150.29 L-4.85,153.25 Z" className="wave2">
-           </path></svg>
-        </div>
+        
     </div>
         </>
     )

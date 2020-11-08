@@ -23,7 +23,7 @@ function NavBar(){
               <a className="nav-link colorLetras" href="#">Nosotros</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link colorLetras" href="#">Eventos</a>
+              <a className="nav-link colorLetras" href="#">Blog de Eventos</a>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle colorLetras" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -6,7 +6,7 @@
     max-width: 100%;
     margin: auto;
     display: flex;
-    
+    height: 700px;
 
 }
 
@@ -33,6 +33,7 @@
         margin-right: 500px;
         margin-left: 200px;
         border-radius: 5px;
+        margin-top: 50px;
         
     }
     
@@ -41,8 +42,9 @@
     }
     
     .contenido-texto h3{
+        margin-top: 40px;
     margin-bottom: 10px;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 255, 255);
     font-family: 'Amatic SC', cursive;
     font-family: 'Itim', cursive;
     font-size: 40px;
@@ -64,10 +66,32 @@
     
     }
 
+    .happy{
+        color: rgb(240, 187, 12);
+    }
+
     .elefante{
         position: absolute;
-        top: 1200px;
-        right: 150px;
+        top: 1160px;
+        right: -100px;
+    }
+
+    .wave{
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    top: 1350px;
+    }
+
+    .wave1{
+     height: 150%;
+     width: 100%;
+     
+    }
+
+    .wave2{
+    stroke: none;
+     fill: #264cc7;
     }
 
     

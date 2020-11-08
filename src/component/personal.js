@@ -7,8 +7,14 @@ import rana from '../img/rana.png'
 function Personal(){
     return(
         <section className="testimony">
+
+         <div className="wave3" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" className="wave4">
+             <path d="M-24.60,26.94 C149.21,110.81 271.49,-49.99 500.22,40.75 L500.00,0.00 L0.00,0.00 Z" className="wave5"></path></svg>
+         </div>
+
+
         <div className="container">
-            <h2 className="Encabezado">Nuestra Familia</h2>
+            <h3 className="Encabezado"><span className='Encabezado-Nuestra'>Nuestra</span> Familia</h3>
             <p className="Encabezado"> </p>
 
             <div className="testimony-container">
@@ -49,6 +55,8 @@ function Personal(){
                 
             </div>
         </div>
+
+        
     </section>
     )
 }
