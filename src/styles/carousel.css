@@ -1,0 +1,50 @@
+.total{
+    height: 820px;
+    margin-top: 100px;
+}
+
+
+
+.carouselHouse{
+    width: 100%;
+    height: 800px;
+    margin-top: 80px;
+    border-radius: 30px;
+    
+    
+}
+
+.carouselHouse1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: #9cc727ec;
+    width: 75%;
+    height: 800px;
+    
+}
+
+
+.wave{
+    height: 200px;
+   
+   
+    
+}
+
+.wave1{
+     height: 150%;
+     width: 100%;
+     
+}
+
+.wave2{
+    stroke: none;
+     fill: #fff;
+}
+
+
+
+
+
