@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/navBar.css'
-import Logo from '../img/logo.jpg'
+import Logo from '../img/logo-happy-house-vector3.png'
 import facebook from '../img/facebook.png'
 import instagram from '../img/instagram.png'
 import whatsapp from '../img/whatsapp.png'

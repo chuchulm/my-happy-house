@@ -5,6 +5,7 @@ import Personal from './personal'
 import Carousel from './Carousel'
 import Portafolio from './Portafolio'
 import Footer from './footer'
+import Paralax from './paralax'
 
 
 function Home(){
@@ -15,6 +16,7 @@ function Home(){
      <Carousel/>
      <Portafolio/>
      <Personal/>
+     <Paralax/>
      <Footer/>
     
     

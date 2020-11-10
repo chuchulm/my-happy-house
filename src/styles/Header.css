@@ -1,5 +1,8 @@
 
-
+.imgPrincipal{
+ width: 100%;
+ height: 750px;
+}
 
 .nube{
     position: absolute;
@@ -40,4 +43,67 @@
     position: absolute;
     top: 610px;
     left: -60px;
+  }
+
+
+/* Responsive */
+
+  @media(max-width: 400px){
+    .imgPrincipal{
+      width: 100%;
+      height: 250px;
+     }
+
+     .nube{
+       width: 60px;
+       height: 50px;
+      position: absolute;
+      top: 70px;
+      left: 130px;
+      animation-name: move;
+      animation-duration: 35s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-play-state: running;
+      animation-fill-mode: backwards;
+  }
+  
+  .nube1{
+      width: 60px;
+      height: 50px;
+      position: absolute;
+      top: 115px;
+      right: 0rem;
+      animation-name: move;
+      animation-duration: 35s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-play-state: running;
+      animation-fill-mode: backwards;
+          
+      
+  }
+
+
+  @keyframes move {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-410px);
+    }
+  }
+
+     .venado{
+       width: 140px;
+       height: 80px;
+      position: absolute;
+      top: 250px;
+      left: -30px;
+    }
+  }
+
+
+  @media(max-width: 800px){
+    
   }

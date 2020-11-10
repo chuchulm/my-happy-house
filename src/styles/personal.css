@@ -5,7 +5,7 @@
 }
 
 .testimony{
-    background: rgb(105, 185, 172);
+    background: rgb(255, 3, 213);
  
   
    
@@ -102,12 +102,29 @@
     width: 700px;
     height: 450px;
     position: absolute;
+    top: 2640px;
+    left: -100px;
+}
+
+.ranaGrande{
+    /* width: 700px;
+    height: 450px; */
+    position: absolute;
+    top: 2710px;
+    right: -60px;
+}
+
+.Jirafa{
+    /* width: 700px;
+    height: 450px; */
+    position: absolute;
     top: 2520px;
-    right: -180px;
+    left: 160px;
+    
 }
 
 .wave3{
-    height: 150px;
+    height: 100px;
    
    
    
@@ -122,9 +139,36 @@
 
 .wave5{
     stroke: none;
-     fill:  #eb3d09;
+     fill:  #e7e4e2;
 }
 
 
-/* #99c521ee */
-/* #9cc727ec */
+/* responsive */
+
+@media(max-width: 400px){
+
+    .container{
+        max-width: 1200px;
+        height: 1050px;
+       
+    }
+
+    .testimony-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .testimony__card{
+        width: 70%;
+        height: 300px;
+        margin-bottom: 10px;
+        background: #fff;
+        border-radius: 10px;
+        position: relative;
+      
+        
+    }
+}

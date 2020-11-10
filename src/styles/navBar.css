@@ -11,10 +11,13 @@
 }
 
 .logo-navBar{
+    width: 60px;
+    height: 50px;
     border-radius: 50px;
-    margin-left: 20px;
-    margin-top: 120px;
+    
+    margin-left: 60px;
     margin-right: 20px;
+    
 }
 
 .redes{
@@ -50,7 +53,22 @@
 }
 
 .colorLetras:hover{
-    background: rgba(255, 0, 255, 0.534);
+    background: rgb(255, 0, 255);
     transform: rotate(6deg);
     transition: transform .5s;
+}
+
+
+@media(max-width: 400px){
+    .redes{
+        margin-right: 20px;
+        border-radius: 7.5px;
+        /* background: rgb(253, 248, 248); */
+    }
+    
+    .redes1{
+        margin-right: 20px;
+        border-radius: 15px;
+        color: black;
+    }
 }

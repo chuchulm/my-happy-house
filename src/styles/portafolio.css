@@ -1,6 +1,6 @@
 .contenedor1{
-
-    padding: 60px 0;
+    height: 1000px;
+    padding: 0px 0;
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -25,7 +25,7 @@
 
 .portafolio{
 
-    background: #eb3d09;  
+    background: #e7e4e2;  
     
     
 
@@ -105,3 +105,75 @@
          fill: #274cc7fd;
     }
     
+
+    @media(max-width: 400px){
+
+        .logo2{
+            width: 17%;
+            height: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            border-radius: 50px;
+            
+            
+        }
+
+        .contenedor1{
+            height: 3500px;
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            
+            
+       
+        }
+
+        .galeria-port{
+         
+            
+        }
+           
+
+    
+    .imagen-port{
+        width: 84%;
+        height: 400px;
+        margin: auto;
+        margin-bottom: 10px;
+        cursor: pointer;
+        box-shadow: 0 0 6px rgba(0, 0, 0 , .5);
+        border-radius: 5px;
+    
+    }
+    
+    .imagen-port > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+     
+        
+    }
+
+    .wave6{
+        height: 100px;
+       
+       
+       
+        
+    }
+    
+    .wave7{
+         height: 100%;
+         width: 100%;
+         
+    }
+    
+    .wave8{
+        stroke: none;
+         fill: #274cc7fd;
+    }
+      
+        
+    
+    }

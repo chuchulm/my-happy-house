@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/portafolio.css';
-import logo from '../img/logo.jpg';
+import logo from '../img/logo-happy-house-vector3.png';
 import dorao1 from '../img/myHouse3.jpg';
 
 

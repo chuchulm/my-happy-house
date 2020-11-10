@@ -17,8 +17,8 @@ function Carousel(){
 
   <img src={oveja}  alt='imagen' className='oveja' width="460px" height="250px"/>
 
-      <div className="tituloCarousel">
-       <h3 >Ven a disfrutar<span className='VEN'> esta increible</span> Aventura</h3>
+      <div >
+       <h3 className="tituloCarousel">Ven a disfrutar<span className='VEN'> esta increible</span> Aventura</h3>
       </div>
 
         <div id="carouselExampleIndicators" className="carousel slide  carouselHouse1" data-ride="carousel">
